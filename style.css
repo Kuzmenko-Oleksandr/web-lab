@@ -1,0 +1,119 @@
+body {
+    background: radial-gradient(at 50% 0%, #1b517e 0%, #0e141b 45%);
+    backdrop-filter: blur(2px) ;
+    font-family: Helvetica;
+}
+.brand  a{
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    transition: 0.1s;
+    margin: 0px 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #4493d3;
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    font-size: 20px;
+}
+.about{
+    margin-top:40px;
+}
+.reviews form{
+    padding-top: 40px;
+}
+.outline{
+    margin: 50px 0px 0px 0px;
+    font-weight: bolder;
+}
+h1.reviews-h{
+    color: white;
+    text-align: center;
+    margin: 40px 0px;
+}
+p.reviews-p{
+   background: #454d55;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.pr-n h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin: 30px 0px 0px 0px;
+    font-weight: bold;
+}
+.about-pr h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.about-pr p{
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+}
+.about-pr li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 5px;
+}
+.go-b{
+    text-align: center;
+    margin-top: 50px;
+}
+.reviews {
+    text-align: center;
+    background: none;
+}
+form {
+    text-align: center;
+}
+form input{
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: none;
+    padding: 10px 10px;
+    transition: 0.1s;
+}
+form button {
+    text-decoration: none;
+    background-color: #4493d3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    transition: 0.1s;
+}
+form button:hover {
+    background-color: #286ea7;
+}
+.back {
+    text-decoration: none;
+    background-color: #4493d3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    transition: 0.1s;
+    margin: 50px 0px;
+}
+.back:hover {
+    background-color: #286ea7;
+}
+.back a {
+    text-decoration: none;
+    color: white;
+}
+.center {
+    text-align: center;
+}
